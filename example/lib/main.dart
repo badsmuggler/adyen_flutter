@@ -31,7 +31,7 @@ class _MyAppState extends State<MyApp> {
                   baseUrl: 'https://yourdomain.com',
                   clientKey: 'clientkey',
                   publicKey: 'publickey',
-                  locale: 'de_DE',
+                  locale: 'fr_BE',
                   shopperReference: 'asdasda',
                   returnUrl: 'http://asd.de',
                   amount: '1230',

@@ -91,7 +91,7 @@ class FlutterAdyenPlugin :
                 @Suppress("NULLABILITY_MISMATCH_BASED_ON_JAVA_ANNOTATIONS")
                 val lineItemString = JSONObject(lineItem).toString()
                 val additionalDataString = JSONObject(additionalData).toString()
-                val localeString = call.argument<String>("locale") ?: "de_DE"
+                val localeString = call.argument<String>("locale") ?: "fr_BE"
                 val countryCode = localeString.split("_").last()
 
                 /*
